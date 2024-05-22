@@ -1,0 +1,10 @@
+[package]
+name = "ff-multitest"
+version = "0.0.1"
+edition = "2021"
+
+[features]
+default = []
+
+[dependencies]
+ff-cosmwasm-std = { path = "../ff-cosmwasm-std", features = ["count"] }

@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "counter"
+name = "ff-cosmwasm-std"
 version = "0.0.1"

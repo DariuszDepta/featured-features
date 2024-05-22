@@ -5,6 +5,7 @@ edition = "2021"
 
 [features]
 default = []
+count = ["ff-cosmwasm-std/count"]
 
 [dependencies]
-ff-cosmwasm-std = { path = "../ff-cosmwasm-std", features = ["count"] }
+ff-cosmwasm-std = { path = "../ff-cosmwasm-std" }

@@ -17,5 +17,6 @@ dependencies = [
 name = "ff-sylvia"
 version = "0.0.1"
 dependencies = [
+ "ff-cosmwasm-std",
  "ff-multitest",
 ]

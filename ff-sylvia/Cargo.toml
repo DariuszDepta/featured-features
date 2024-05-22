@@ -4,4 +4,5 @@ version = "0.0.1"
 edition = "2021"
 
 [dependencies]
-ff-multitest = { path = "../ff-multitest" }
+ff-multitest = { path = "../ff-multitest", features = ["count"] }
+ff-cosmwasm-std = { path = "../ff-cosmwasm-std" }
